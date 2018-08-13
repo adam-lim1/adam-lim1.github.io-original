@@ -318,6 +318,45 @@
       <div class="container-fluid">
         <div class="row no-gutter "> <!--popup-gallery-->
 
+          <!-- First tile -->
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/Projects/Jupyter.PNG">
+              <a class="portfolio-box" data-toggle="modal" href="#portfolioModal9">
+                <img class="img-fluid" src="img/Projects/dashboard_screenshot.PNG" alt="">
+                <div class="portfolio-box-caption">
+                  <div class="portfolio-box-caption-content">
+                    <div class="project-category text-faded">
+                      Data Visualization
+                    </div>
+                    <div class="project-name">
+                      Stock Price Tracker
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </a>
+          </div>
+
+          <!-- Second Tile -->
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/Projects/MarchMadness.PNG">
+              <a class="portfolio-box" data-toggle="modal" href="#portfolioModal8">
+                <img class="img-fluid" src="img/Projects/MarchMadness.PNG" alt="">
+                <div class="portfolio-box-caption">
+                  <div class="portfolio-box-caption-content">
+                    <div class="project-category text-faded">
+                      Machine Learning
+                    </div>
+                    <div class="project-name">
+                      March Madness bracket
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </a>
+          </div>
+
+          <!-- Third Tile -->
           <div class="col-lg-4 col-sm-6">
             <!-- <div class="col-lg-4 col-sm-6"> -->
             <a class="portfolio-box" href="img/Projects/VenmoTile.PNG">
@@ -338,41 +377,6 @@
             </a>
           </div>
 
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/Projects/MarchMadness.PNG">
-              <a class="portfolio-box" data-toggle="modal" href="#portfolioModal8">
-                <img class="img-fluid" src="img/Projects/MarchMadness.PNG" alt="">
-                <div class="portfolio-box-caption">
-                  <div class="portfolio-box-caption-content">
-                    <div class="project-category text-faded">
-                      Machine Learning
-                    </div>
-                    <div class="project-name">
-                      March Madness bracket
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </a>
-          </div>
-
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/Projects/Jupyter.PNG">
-              <a class="portfolio-box" data-toggle="modal" > <!-- href="#portfolioModal9" -->
-                <img class="img-fluid" src="img/Projects/Jupyter.PNG" alt="">
-                <div class="portfolio-box-caption">
-                  <div class="portfolio-box-caption-content">
-                    <div class="project-category text-faded">
-
-                    </div>
-                    <div class="project-name">
-                      More projects to come!
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </a>
-          </div>
 
         </div>
       </div>
@@ -504,10 +508,53 @@
           </div>
           <div class="container">
             <div class="row">
-              <div class="col-lg-8 mx-auto">
+              <div class="col-lg-10 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2>Modal 9</h2>
+                  <h2>Can news stories explain stock prices?</h2>
+                  <hr>
+
+                  <img class="img-fluid d-block mx-auto" src="img/portfolio/01-full.jpg" alt="">
+                  <p align="left">
+                    Stock prices and news stories are invariably intertwined. Surprisingly, not many tools that exist today combine these two elements.<br><br>
+
+                    As part of a 24-hour hackathon at work, my team wanted to see if we could use news stories to provide context to movements in stock price.
+                    Was the reason for a company’s big gain last month tied to a favorable earnings report or announcement of a new partnership?<br><br>
+
+                    We utilized historical stock price data from TD, <a href="https://newsapi.org/" target="_blank">News API</a> and
+                    <a href="https://iextrading.com/developer/" target="_blank">IEX’s API</a> to pull news stories and stock prices in real-time, and
+                    the Dash Python library to create an interactive dashboard tracking stock prices and overlaying notable news events.<br><br>
+
+                    For some companies, this exercise worked great — for JCPenney we were clearly able to attribute a sharp decline in price to a “volatile earnings release”.
+                     For other companies such as Amazon, it was more difficult to filter out the signal from the noise and identify the most relevant news stories.<br><br>
+
+                  </p>
+                  <img class="img-fluid" src="img/Projects/dashboard_screenshot.PNG" alt="">
+                    <a class="btn btn-primary" href="https://github.com/adam-lim1/hackathon-dashboard" target="_blank">Check it out on GitHub</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- TEST Modal 9 -->
+    <!-- <div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body"> -->
+                  <!-- Project Details Go Here -->
+                  <!-- <h2>Modal 9</h2>
                   <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
                   <img class="img-fluid d-block mx-auto" src="img/portfolio/01-full.jpg" alt="">
                   <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
@@ -525,7 +572,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
 
 
