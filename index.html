@@ -294,12 +294,12 @@
                 <a class="portfolio-box" href="Resume_online.pdf" download="AdamLim_Resume">
                   <div class="timeline-image">
                     <h4>Download<br>my<br>resume</h4>
-                    </div>
-                  </a>
-                </li>
-              </ul>
-            </div>
+                  </div>
+                </a>
+              </li>
+            </ul>
           </div>
+        </div>
 
       </div>
 
@@ -318,10 +318,29 @@
       <div class="container-fluid">
         <div class="row no-gutter "> <!--popup-gallery-->
 
-          <!-- First tile -->
+          <!-- DATA CLASH TILE -->
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/Projects/DataClash.PNG">
+              <a class="portfolio-box" data-toggle="modal" href="#data-clash-modal">
+                <img class="img-fluid" src="img/Projects/DataClash.PNG" alt="">
+                <div class="portfolio-box-caption">
+                  <div class="portfolio-box-caption-content">
+                    <div class="project-category text-faded">
+                      Machine Learning
+                    </div>
+                    <div class="project-name">
+                      Data Clash
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </a>
+          </div>
+
+          <!-- STOCK DASHBOARD TILE -->
           <div class="col-lg-4 col-sm-6">
             <a class="portfolio-box" href="img/Projects/Jupyter.PNG">
-              <a class="portfolio-box" data-toggle="modal" href="#portfolioModal9">
+              <a class="portfolio-box" data-toggle="modal" href="#dashboard-modal">
                 <img class="img-fluid" src="img/Projects/dashboard_screenshot.PNG" alt="">
                 <div class="portfolio-box-caption">
                   <div class="portfolio-box-caption-content">
@@ -337,10 +356,10 @@
             </a>
           </div>
 
-          <!-- Second Tile -->
+          <!-- MARCH MADNESS TILE -->
           <div class="col-lg-4 col-sm-6">
             <a class="portfolio-box" href="img/Projects/MarchMadness.PNG">
-              <a class="portfolio-box" data-toggle="modal" href="#portfolioModal8">
+              <a class="portfolio-box" data-toggle="modal" href="#bracket-modal">
                 <img class="img-fluid" src="img/Projects/MarchMadness.PNG" alt="">
                 <div class="portfolio-box-caption">
                   <div class="portfolio-box-caption-content">
@@ -356,12 +375,11 @@
             </a>
           </div>
 
-          <!-- Third Tile -->
-          <div class="col-lg-4 col-sm-6">
-            <!-- <div class="col-lg-4 col-sm-6"> -->
+          <!-- *********** COMMENT THESE 3 TILES OUT FOR NOW *********** -->
+          <!-- VENMO TILE -->
+          <!-- <div class="col-lg-4 col-sm-6">
             <a class="portfolio-box" href="img/Projects/VenmoTile.PNG">
-              <!-- <a class="portfolio-box" href="#portfolioModal1"> -->
-              <a class="portfolio-box" data-toggle="modal" href="#portfolioModal7">
+              <a class="portfolio-box" data-toggle="modal" href="#venmo-modal">
                 <img class="img-fluid" src="img/Projects/VenmoTile.PNG" alt="">
                 <div class="portfolio-box-caption">
                   <div class="portfolio-box-caption-content">
@@ -375,8 +393,46 @@
                 </div>
               </a>
             </a>
-          </div>
+          </div> -->
 
+          <!-- BILL SPLITTER TOOL TILE -->
+          <!-- <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/Projects/VenmoTile.PNG">
+              <a class="portfolio-box" href="https://github.com/adam-lim1/" target="_blank">
+                <img class="img-fluid" src="img/Projects/Receipt.JPG" alt="">
+                <div class="portfolio-box-caption">
+                  <div class="portfolio-box-caption-content">
+                    <div class="project-category text-faded">
+                      Image Recognition
+                    </div>
+                    <div class="project-name">
+                      Bill Splitter Tool
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </a>
+          </div> -->
+
+          <!-- MORE PROJECTS TO COME TILE -->
+          <!-- <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/Projects/Jupyter.PNG">
+              <a class="portfolio-box" data-toggle="modal">
+                <img class="img-fluid" src="img/Projects/Jupyter.PNG" alt="">
+                <div class="portfolio-box-caption">
+                  <div class="portfolio-box-caption-content">
+                    <div class="project-category text-faded">
+                      TBD
+                    </div>
+                    <div class="project-name">
+                      More projects to come
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </a>
+          </div> -->
+          <!-- *********** COMMENT THESE 3 TILES OUT FOR NOW *********** -->
 
         </div>
       </div>
@@ -418,8 +474,8 @@
 
 <!-- ************************ MODAL SECTION ************************ -->
 
-    <!-- TEST Modal 7 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+    <!-- VENMO MODAL -->
+    <div class="portfolio-modal modal fade" id="venmo-modal" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="close-modal" data-dismiss="modal">
@@ -433,18 +489,14 @@
                  <div class="modal-body">
                   <!-- Project Details Go Here -->
                   <h2>Topic analysis of Venmo feed</h2>
-
                   <hr>
-
-                  <p align="left">The goal of this project was to see if we could draw insights into consumer spending behavior -- given a person or group of people, could we identify the types of transactions that they use Venmo for?<br><br>
+                  <p align="left">The goal of this project was to see if we could draw insights into consumer spending behavior — given a person or group of people, could we identify the types of transactions that they use Venmo for?<br><br>
 
                     By scraping Venmo’s public transaction feed I was able to capture information on all public transactions taking place within the app and perform LDA topic analysis on the transaction descriptions.<br><br>
 
                     Utilizing AWS for facial recognition was a cool add-in for how you could query the database and get transaction insight into a specific user.
                   </p>
-
                   <img class="img-fluid" src="img/Projects/VenmoModal.PNG" alt="">
-
                   <!-- <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fa fa-times"></i>
                     Close Project</button> -->
@@ -457,8 +509,8 @@
       </div>
     </div>
 
-    <!-- TEST Modal 8 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
+    <!-- MARCH MADNESS MODAL -->
+    <div class="portfolio-modal modal fade" id="bracket-modal" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="close-modal" data-dismiss="modal">
@@ -497,8 +549,8 @@
       </div>
     </div>
 
-    <!-- TEST Modal 9 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
+    <!-- STOCK DASHBOARD MODAL -->
+    <div class="portfolio-modal modal fade" id="dashboard-modal" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="close-modal" data-dismiss="modal">
@@ -526,11 +578,11 @@
                     the Dash Python library to create an interactive dashboard tracking stock prices and overlaying notable news events.<br><br>
 
                     For some companies, this exercise worked great — for JCPenney we were clearly able to attribute a sharp decline in price to a “volatile earnings release”.
-                     For other companies such as Amazon, it was more difficult to filter out the signal from the noise and identify the most relevant news stories.<br><br>
+                    For other companies such as Amazon, it was more difficult to filter out the signal from the noise and identify the most relevant news stories.<br><br>
 
                   </p>
                   <img class="img-fluid" src="img/Projects/dashboard_screenshot.PNG" alt="">
-                    <a class="btn btn-primary" href="https://github.com/adam-lim1/hackathon-dashboard" target="_blank">Check it out on GitHub</a>
+                  <a class="btn btn-primary" href="https://github.com/adam-lim1/hackathon-dashboard" target="_blank">Check it out on GitHub</a>
                 </div>
               </div>
             </div>
@@ -539,6 +591,49 @@
       </div>
     </div>
 
+    <!-- DATA CLASH MODAl -->
+    <div class="portfolio-modal modal fade" id="data-clash-modal" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+
+          <div class="col-lg-10 mx-auto"> <!-- Div for Title and red line -->
+            <h2 style="text-align:center">Predicting customer engagement</h2>
+            <hr>
+            <img class="img-fluid d-block mx-auto" src="img/portfolio/01-full.jpg" alt="">
+          </div>
+
+          <div class="container"> <!-- Div for images and text description -->
+            <div class="row">
+              <div class="col-md-6 mx-auto"> <!-- Split row into two columns -->
+                <img class="img-fluid" src="img/Projects/DataClash_Leaderboard.PNG" alt="" ALIGN="top">
+                <img class="img-fluid" src="img/Projects/ROCAUC.PNG" alt="" ALIGN="top">
+              </div>
+              <div class="col-md-6 mx-auto"> <!-- Split row into two columns -->
+                <p style="text-align:left" align="left">
+
+                  Data Clash was a 10 week long, company-wide, Kaggle-style data science competition hosted by my work this fall. The challenge? Predict which customers will call within 30 days about a payment, statement waiver, or other reason.<br><br>
+
+                  My team took an ensemble modeling approach, creating separate one-vs-rest classifiers for each of the three classes we hoped to predict. Paired with some creative feature engineering, we were able to produce the second-highest F1 score, and take second place in the competition of over 100 teams (300+ individuals).<br><br>
+
+                  We also managed to secure first place in the sub-challenge of predicting the number of days until a customer will call.<br><br>
+
+                  Unfortunately I can’t post any of the datasets or code online — as a result of the competition, our work is being leveraged to create a productionalized model.<br><br>
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="col-lg-10 mx-auto"> --> <!-- Div for Github link -->
+          <!-- <a class="btn btn-primary" href="https://github.com/adam-lim1/hackathon-dashboard" target="_blank">Check it out on GitHub</a>
+        </div> -->
+      </div>
+    </div>
+  </div>
 
     <!-- TEST Modal 9 -->
     <!-- <div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
@@ -573,8 +668,6 @@
         </div>
       </div>
     </div> -->
-
-
 
 
     <!-- Bootstrap core JavaScript -->
