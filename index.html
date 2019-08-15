@@ -26,6 +26,15 @@
     <!-- Custom styles for this template -->
     <link href="css/creative.css" rel="stylesheet">
 
+    <!-- Randomize Background Image-->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript" ></script>
+    <script type="text/javascript">
+     $(function() {
+      var images = ['../img/Smokies.JPG', '../img/IMG_7751.JPG'];
+      $('header.masthead').css({'background-image': 'url(images/' + images[Math.floor(Math.random() * images.length)] + ')'});
+     });
+    </script>
+
     <!-- Set the tab icon -->
     <!-- <link rel="icon" href="http://vector.gissen.nl/kijkwijzer-AL.png"> -->
     <link rel="icon" href="img/AL_icon.PNG">
