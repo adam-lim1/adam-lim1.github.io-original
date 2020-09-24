@@ -1,20 +1,19 @@
 /*!
  * Start Bootstrap - Resume v5.0.8 (https://startbootstrap.com/template-overviews/resume)
- * Copyright 2013-2019 Start Bootstrap
+ * Copyright 2013-2020 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
  */
-masthead {
-  position: relative;
-  width: 100%;
-  min-height: auto;
-  text-align: center;
-  background-position: center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
+ masthead {
+   position: relative;
+   width: 100%;
+   min-height: auto;
+   text-align: center;
+   background-position: center;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+ }
 
 body {
   font-family: 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
@@ -92,7 +91,7 @@ p.lead {
 }
 
 .dev-icons .list-inline-item i:hover {
-  color: #BD5D38;
+  color: #8a2712;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
@@ -172,27 +171,17 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-  /* background-color: #BD5D38 !important; */
   background-color: #a83016 !important;
-  /* #a83016 */
 }
 
 .text-primary {
-  /* color: #BD5D38 !important; */
   color: #a83016 !important;
 }
 
-.section-title {
-  /* color: #BD5D38 !important; */
-  /* color: #a83016 !important; */
-  color: #a83016;
-}
-
 a {
-  /* color: #BD5D38; */
   color: #a83016;
 }
 
 a:hover, a:focus, a:active {
-  color: #824027;
+  color: #8a2712;
 }
